@@ -1,0 +1,224 @@
+package uk.ac.belfastmet.examples;
+
+public class Conditions {
+
+	private int a = 4;
+	private int b = 5;
+	
+	public static void main(String[] args) {
+		Conditions conditions = new Conditions();
+		//onditions.forConditions();
+		//conditions.printConditions();
+		//conditions.whileConditions();
+		//conditions.doWhileConditions();	
+		//conditions.switchConditions();
+		//conditions.statementStringConditions();
+		//conditions.firstCharacter();
+		//conditions.startCharacter();
+		//conditions.subCharacter();
+		//conditions.indexString();
+		//conditions.splitString();
+		//conditions.upperCase();
+		conditions.toSleepIn();
+		conditions.sleepIn();
+		
+	}
+	
+	public void printConditions() {
+
+			
+			if(a < b)   {
+				System.out.println("true");
+			}
+			if (a > b) 	{
+				System.out.println("false");
+			}
+			if (a <= 4) {
+				System.out.println("true");
+			}
+			if (b >= 6) {
+				System.out.println("false");
+			}			
+			if (a == b) {
+				System.out.println("false");
+			}
+			if (a != b) {
+				System.out.println("true");
+			}
+			if (a > b || a < b) { 
+				System.out.println("true");
+			}
+			if (3< a && a < 6) {
+				System.out.println("true");
+			}
+			if (a != b) {
+				System.out.println("false");
+			}
+	}
+
+		public void forConditions() {
+
+				for(int index = 10; index>=0 ; index--)
+					System.out.println("index" + index);
+
+
+		}
+		
+		public void dowhileConditions() {
+			
+				int index = 0;
+				do {
+				System.out.println("index" + index);
+					index++;
+				}
+				while (index < 5);
+		}
+		
+		public void switchConditions() {
+		
+			int day = 4;
+			
+			switch (day) {
+		
+			case 1:
+				System.out.println("Monday");
+				break;
+			case 2:
+				System.out.println("Tuesday");
+				break;
+			case 3:
+				System.out.println("Wednesday");
+				break;
+			case 4:
+				System.out.println("Thursday");
+				break;
+			case 5:
+				System.out.println("Friday");
+				break;
+			case 6:
+				System.out.println("Saturday");
+				break;
+			case 7:
+				System.out.println("Sunday");
+				break;
+			default:
+				System.out.println("Your day doesn't exist - have a nice day");
+		}
+	}
+			
+			public void statementStringConditions() {
+				
+				String day = "Monday";
+				switch (day) {
+			case "Monday":
+				System.out.println("Monday");
+				break;
+			case "Tuesday":
+				System.out.println("Tuesday");
+				break;
+			case "Wednesday":
+				System.out.println("Wednesday");
+				break;
+			case "Thursday":
+				System.out.println("Thursday");
+				break;
+			case "Friday":
+				System.out.println("Friday");
+				break;
+			case "Saturday":
+				System.out.println("Saturday");
+				break;
+			case "Sunday":
+				System.out.println("Sunday");
+				break;
+			default:
+				System.out.println("You got no days mofo - hit the bar");
+			
+			}
+				
+	}
+				
+			public void firstCharacter() {
+				
+				String name = "martin";
+				char letter = name.charAt(2);
+				System.out.println(letter);
+			}
+			
+			
+			public void startCharacter() {
+				String name = "martin";
+				boolean startsWith = name.startsWith("m");
+				if(startsWith) {
+					System.out.println("it starts with the character");
+				}
+				
+			}
+			
+			public void subCharacter() {
+				String name = "martin";
+				String subCharacter = name.substring(2, 4);
+				System.out.println(subCharacter);
+			}
+			
+			public void conatinString() {
+				String name = "martin";
+				boolean contains = name.contains("rt");
+				if(contains) {
+					System.out.println("It contains");
+					
+				}
+			}
+			
+			public void indexString() {
+				String name = "martin";
+				int index = name.indexOf("in");
+				System.out.println("Index of " + index);
+				
+			}
+			
+			public void splitString() {
+				String sentence = "I am studying";
+				String [] strings = sentence.split(" ");
+				System.out.println("Length is " + strings);
+				for(int index = 0; index < strings.length; index++) {
+				System.out.println(strings[index]);
+				}
+			}
+			
+			public void upperCase() {
+				String sentence = "I am studying";
+				sentence = sentence.toUpperCase(); {
+					System.out.println("upper case sentence" + sentence);
+				}
+				
+		
+		}
+			
+			public class MethodExample {
+
+				public void sleepIn(boolean b, boolean c, boolean d) {
+					// TODO Auto-generated method stub
+					
+				}
+				
+			}
+				public void main (String[] args) {
+					MethodExample methodExample = new MethodExample();
+					methodExample.sleepIn(true, false, false);
+					
+				}
+					
+					public void sleepIn(boolean toSleepIn, boolean vacation, boolean weekend) {
+						System.out.println("Sleep in" + toSleepIn);
+						System.out.println("Vacation in" + vacation);
+						System.out.println("weekend in:" + weekend);
+					
+					
+				}
+				
+			}
+		
+			
+			
+	

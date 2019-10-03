@@ -1,0 +1,17 @@
+package uk.ac.belfastmet.examples;
+
+public class bad {
+	public boolean hasBad(String word) {
+		boolean result = false;
+		if(word.startsWith("bad")) {
+			result = true;
+			
+			
+			
+		}
+		
+		
+		return result;
+	}
+
+}

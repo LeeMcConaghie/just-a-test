@@ -1,0 +1,27 @@
+package uk.ac.belfastmet.examples;
+
+public class StringMiddle {
+	StringMiddle stringMiddle = new StringMiddle();
+	String str = input;
+
+			int length = str.length(); {
+
+			if(l%2==0)
+
+			{
+
+			char ch1=str.charAt((l/2)-1);
+
+			}
+
+			else
+
+			{
+
+			char ch = str.charAt(l/2);
+
+			}
+			
+			} 
+			
+}

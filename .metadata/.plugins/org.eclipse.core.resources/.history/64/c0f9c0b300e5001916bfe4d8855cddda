@@ -1,0 +1,16 @@
+package uk.ac.belfastmet.examples;
+
+import org.junit.Test;
+
+public class StringCatTest {
+	
+	@Test
+	public String Concatenate() {
+	String result = StringCat.Concatenate("putain", "de merde");
+	
+	
+	
+	equals("putain de merde");
+	
+	}
+}

@@ -1,0 +1,20 @@
+package uk.ac.belfastmet.examples;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MyUnitTest2 {
+
+	@Test
+	public void testConcatenate() {
+		MyUnit2 myUnit2 = new MyUnit2();
+		
+		String result = myUnit2.concatenate("three", "four");
+	
+		assertEquals("threefour");
+
+			
+	}
+
+}

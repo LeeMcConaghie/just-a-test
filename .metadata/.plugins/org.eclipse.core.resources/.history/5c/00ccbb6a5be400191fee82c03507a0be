@@ -1,0 +1,24 @@
+package uk.ac.belfastmet.examples;
+
+public class Color {
+
+	public String seeColor(String word) {
+		String outcome = "";
+		String red;
+		String blue;
+		String = " ";
+		
+		if(word.startsWith("red")) {
+			result = "red"; 
+		}
+		if 
+		(word.startsWith("blue")) 
+		{
+			result1 = "blue";
+		}
+		else if(word.startsWith("")) {
+			result2 = " ";
+		}
+		return outcome;
+	} 
+}

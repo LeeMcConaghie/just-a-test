@@ -1,0 +1,31 @@
+package uk.ac.belfastmet.examples;
+
+public class balancedBrackets {
+// local variable
+/**.
+ * Input exp = "[()]"
+ * Output Balanced
+ * 
+ * Input: exp "{[]}" 
+ * Output Balanced
+ * 
+ *  Input exp = "[] {} ()"
+ *  Output Balanced
+ *  
+ *  Input: exp "[)[)""
+ *  Output Not Balanced
+ *  
+ *   Input: exp = "()]()"
+ *   Output Not balanced
+ * 
+ * 
+ * BalancedBrackets.**/
+	
+/**.
+ * Ok so what's the logic? String 
+ * 
+ * 
+ * 
+ * ..**/
+	
+	

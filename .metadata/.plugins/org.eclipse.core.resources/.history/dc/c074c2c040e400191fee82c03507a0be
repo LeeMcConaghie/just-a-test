@@ -1,0 +1,16 @@
+package uk.ac.belfastmet.examples;
+
+public class StringMiddle {
+	StringMiddle stringMiddle = new StringMiddle();
+	
+	public String middletwo(String word) {
+		String result;
+		int length = word.length();
+		int halfway = length/2;
+		
+		result = word.charAt(halfway -1) + "";
+		result = result + word.charAt(halfway) + "";
+	
+		return result;
+	}
+}

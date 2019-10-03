@@ -1,0 +1,24 @@
+package uk.ac.belfastmet.examples;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ColorTest {
+
+	@Test
+	public void test() {
+		Color color = new Color();
+		String outcome = color.seeColor("redxx");
+	}
+	@Test
+	public void test1() {
+		Color color = new Color();
+		String outcome = color.seeColor("xxred");
+	}
+	@Test
+	public void test3() {
+		Color color = new Color();
+		String outcome = color.seeColor("");
+	}
+}

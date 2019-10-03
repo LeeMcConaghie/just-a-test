@@ -1,0 +1,18 @@
+package uk.ac.belfastmet.examples;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class badTestTest {
+
+	@Test
+	public void test() {
+		Bad bad = new Bad();
+		
+		assertEquals("true");
+		
+		boolean result = true;
+	}
+
+}

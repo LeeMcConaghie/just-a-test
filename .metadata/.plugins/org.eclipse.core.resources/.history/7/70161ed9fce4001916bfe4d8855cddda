@@ -1,0 +1,10 @@
+package uk.ac.belfastmet.examples;
+
+public class StudentEnrollment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student student = new Student("martin", 18);
+	}
+
+}

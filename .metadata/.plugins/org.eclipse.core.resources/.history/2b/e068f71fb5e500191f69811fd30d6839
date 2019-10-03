@@ -1,0 +1,77 @@
+package uk.ac.belfastmet.examples;
+
+public class Brackets {
+
+	public static void main(String[] args) {
+		// Determine if opening and closing brackets in a String@param bracket
+		String brackets1 ="[()]";
+		String brackets2 = "{[]}";
+		String brackets3 = "[] {}()";
+		String brackets4 = "[)[)";
+		String brackets5 = "()]()";
+		
+		String result1 = balancedBrackets1;
+		String result2 = balancedBrackets2;
+		String result3 = balancedBrackets3;
+		String result4 = balancedBrackets4;
+		String result5 = balancedBrackets5;
+		
+		System.out.println("Result: " + result1);
+		System.out.println("Result: " + result2);
+		System.out.println("Result: " + result3);
+		System.out.println("Result: " + result4);
+		System.out.println("Result: " + result5);
+	}
+
+	
+	public static String balancedBrackets(String bracket, int index) {
+		
+		/**..**
+		 * initilise int for counting opening and closing Brackets
+		 */
+		int openBracket =  0;
+		int openCurly = 0;
+		int openSquare = 0;
+		int closedBracket = 0;
+		int closedCurly = 0;
+		int closedSquare = 0;
+		
+		/***
+		 * use modulus to determine if even
+		 */
+		if(bracket.length() % 2 == 0) {
+			/***
+			 * for loop to count through bracket types
+			 */
+			for(index = 0; index <bracket.length();index++) {
+				/***
+				 * if statements to check bracket count
+				 */
+				if(bracket.charAt(index) == '(') {
+					openBracket++;
+				}
+				if (bracket.charAt(index) == '{') {
+					openCurly++;
+				}
+				if(bracket.charAt(index) =='[') {
+					openSquare++;
+				}
+				if(bracket.charAt(index) == ')') {
+					closedBracket++;
+				}
+				if(bracket.charAt(index) == '}') {
+					closedCurly++;
+				}
+				if(bracket.charAt(index) == ']') {
+					closedSquare++;
+				}
+				if(openBracket == closedBracket && openCurly == closedCurly && openSquare == closedSquare) {
+					return "Balanced";
+				}//end if
+					return "Not Balanced";
+			}//end for loop
+			 
+		}//end modulus
+	}
+		
+

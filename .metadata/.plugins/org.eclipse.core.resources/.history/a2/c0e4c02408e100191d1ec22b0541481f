@@ -1,0 +1,24 @@
+
+public class ReturnString {
+
+	public static void main(String[] args) {
+		// method called returnString that returns "hello world")
+	}
+	
+	public String ReturnString() {
+
+		ReturnString returnString = new ReturnString();
+
+		String outcome = returnString.returnSomething();
+		System.out.println("The outcome is ");
+	}
+
+	public String returnSomething() {
+
+		String result = "hello world!";
+		
+		return result;
+	}
+
+}
+

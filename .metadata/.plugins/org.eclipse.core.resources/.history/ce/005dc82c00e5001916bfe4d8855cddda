@@ -1,0 +1,14 @@
+package uk.ac.belfastmet.examples;
+
+import org.junit.Test;
+
+public class StringCatTest {
+	
+	@Test
+	public String Concatenate(String String1, String String2) {
+		
+	
+	assertEquals("putain de merde");
+	
+	}
+}

@@ -1,0 +1,19 @@
+package uk.ac.belfastmet.examples;
+
+public class Temperature {
+
+	public static void main(String[] args) {
+	}
+	
+	
+	
+	public boolean icyHot(int icy, int hot) {
+		boolean result = false;
+		if(icy < 0 && hot > 100 || hot < 0 && icy > 100) {
+		result = true;	
+		}
+		return result;
+		
+		System.out.println(result);
+	}
+}

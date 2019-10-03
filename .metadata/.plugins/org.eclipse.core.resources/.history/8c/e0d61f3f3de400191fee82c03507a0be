@@ -1,0 +1,11 @@
+package uk.ac.belfastmet.examples;
+
+public class StringMiddle {
+	StringMiddle stringMiddle = new StringMiddle();
+	String str = "String";
+	
+	
+	String result = string.length()/2;
+	
+}
+

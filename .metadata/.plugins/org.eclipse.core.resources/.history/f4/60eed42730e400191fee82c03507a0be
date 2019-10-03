@@ -1,0 +1,18 @@
+package uk.ac.belfastmet.examples;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TemperatureTest {
+
+	@Test
+	public void testTemperature() {
+		Temperature temperature = new Temperature();
+	
+		boolean result = temperature.icyHot(120,  -1);
+		
+		assertEquals(true, result);
+	}
+
+}

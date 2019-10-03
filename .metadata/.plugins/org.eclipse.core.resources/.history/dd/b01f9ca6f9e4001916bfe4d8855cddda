@@ -1,0 +1,35 @@
+package uk.ac.belfastmet.examples;
+
+
+public static int numberOfStudents() {
+	
+	
+}
+
+public class Student {
+	/****
+	 * student class with two variables Name and age - String and int
+	 */
+
+	private String name;
+	private int age;
+	
+	// default constructor
+	public Student() {
+		
+		
+	}
+	//getName method
+	
+	public String getName() {
+	
+		return name;
+}
+
+	public int getAge() {
+	return age;
+	
+	
+}
+
+}
